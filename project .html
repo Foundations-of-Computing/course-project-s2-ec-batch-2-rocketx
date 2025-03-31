@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketX</title>
+
+    <!-- Linking external CSS file for styling -->
+    <link rel="stylesheet" href="css_project.css">
+
+    <!-- Importing Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <header>
+        <nav>
+            <div id="navbar">
+
+                <!-- Navigation bar with links for quick access-->
+                <a href="#" id="logo">RocketX</a>
+                <a href="#" class="navbar-icon">Home</a>
+                <a href="#bottom" class="navbar-icon">Help</a>
+                <a href="#" class="navbar-icon">Account</a>
+                <a href="#faq" class="navbar-icon">FAQs</a>
+                <a href="#bottom" class="navbar-icon">About</a>
+
+                <!-- Buttons for user interaction -->
+                <button id="curiousButton">Curious?</button>
+                <button id="themeButton">Toggle Theme</button>
+    
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero section with main introduction about the wesite -->
+    <div class="hero">
+        <div class="content">
+            <article>
+                <h1 id="h1">Welcome to RocketX – Your Gateway to ISRO’s Missions!</h1>
+                <div id="maincontent">
+                    <p>
+                        RocketX is your one-stop destination for tracking past, present, 
+                        and future space missions of the Indian Space Research Organisation (ISRO).
+                        Whether you're a space enthusiast, student, or researcher, we bring you up-to-date information 
+                        on rocket launches, satellite deployments, mission objectives, and key milestones of ISRO’s incredible 
+                        journey beyond Earth.
+                    </p>
+                    <p>
+                        Stay informed with real-time updates, 
+                        mission insights, and historical records of India's 
+                        space achievements—all in one place. Explore the cosmos with RocketX!
+                    </p>
+                </div>
+            </article>
+        </div>
+
+        <!-- Image associated with the hero section -->
+        <figure>
+            <div class="image">
+                <img id="heroimg"src="hero_image.png" alt="ROCKET IMAGE">
+            </div>
+        </figure>
+    </div>
+
+    <!-- Table listing various ISRO missions -->
+    <div id="tb">
+        <h2 class="h2">Missions by ISRO</h2>
+        <table border="1">
+            <tr>
+                <th>MISSION NAME</th>
+                <th>LAUNCH DATE</th>
+                <th>LAUNCH VEHICLE</th>
+                <th>LAUNCH SITE</th>
+                <th>APPLICATION</th>
+                <th>REFERENCE LINK</th>
+            </tr>
+            <tr>
+                <td>Aryabhatta</td>
+                <td>19 Apr 1975</td>
+                <td>Cl-intercosmos</td>
+                <td>Volgograd Launch Station(Presently in Russia)</td>
+                <td>Scientific/Experimental</td>
+                <td><a href="#aryabhatta">Click here</a></td>
+
+            </tr>
+            <tr>
+                <td>Rohini-1</td>
+                <td>18 Jul 1980</td>
+                <td>SLV-3</td>
+                <td>SDSC SHAR</td>
+                <td>Experimental</td>
+                <td><a href="#SLV-3">Click here</a></td>
+            </tr>
+            <tr>
+                <td>Chandrayan-1</td>
+                <td>22 Oct 2008</td>
+                <td>PSLV-C11</td>
+                <td>SDSC SHAR</td>
+                <td>Planetery Observation(Map the moon)</td>
+                <td><a href="#chandrayaan1">Click here</a></td>
+            </tr>
+            <tr>
+                <td>RITSAT-1</td>
+                <td>26 Apr 2012</td>
+                <td>PSLV-C19</td>
+                <td>SDSC SHAR</td>
+                <td>Earth Observation</td>
+                <td><a href="#ritsat">Click here</a></td>
+                </tr>
+            <tr>
+                <td>Mangalyan(MOM)</td>
+                <td>5 Nov 2013</td>
+                <td>PSLV-C25</td>
+                <td>SDSC SHAR</td>
+                <td>Mars Observation</td>
+                <td><a href="#MOM">Click here</a></td>
+            </tr>
+            <tr>
+                <td>Chandrayan-2</td>
+                <td>22 Jul 2019</td>
+                <td>GSLV MK-111-M1</td>
+                <td>SDSC SHAR</td>
+                <td>Planetery Observation(Moon)</td>
+                <td><a href="#chandrayaan2">Click here</a></td>
+            </tr>
+            <tr>
+                <td>Chandrayan-3</td>
+                <td>14 Jul 2023</td>
+                <td>LMV3 M4</td>
+                <td>SDSC SHAR</td>
+                <td>Planetery Observation(Moon)</td>
+                <td><a href="#chandrayaan3">Click here</a></td>
+            </tr>
+            <tr>
+                <td>Aditya L-1</td>
+                <td>2 Sep 2023</td>
+                <td>PSLV-C57</td>
+                <td>SDSC SHAR</td>
+                <td>Planetery Observation(Sun)</td>
+                <td><a href="#adityal1">Click here</a></td>
+            </tr>
+            <tr>
+                <td>Gaganyaan</td>
+                <td>Scheduled to launch @2025</td>
+                <td>Mark-3(HLVM3)</td>
+                <td>SDSC SHAR</td>
+                <td>Human Transit</td>
+                <td><a href="#gaganyaan">Click here</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section with details about specific missions -->
+    <section>
+        <div class="para">
+            <h2 class="heading" id="ritsat">RISAT-1 :</h2>
+            <div class="div">
+                Launch Date: April 26, 2012
+                <br><h3>Mission Objective:</h3>
+                RISAT-1 was designed to provide all-weather, day-and-night surveillance using Synthetic Aperture Radar (SAR) technology.
+                The satellite's mission was to capture high-resolution radar images of the Earth's surface regardless of weather conditions, enabling detailed monitoring for agricultural, disaster management, and national security purposes.
+                The radar payload on RISAT-1 allowed for imaging through clouds, rain, and darkness, which made it highly valuable for continuous monitoring.
+                
+                <br><h3>Launch Vehicle: </h3>
+                PSLV-C19 (Polar Satellite Launch Vehicle), launched from Satish Dhawan Space Centre in Sriharikota, India.
+    
+                <br><h3>Mission:</h3>
+                RISAT-1 carried a C-band Synthetic Aperture Radar (SAR) payload capable of producing high-resolution images of the Earth's surface.
+                It was the first of ISRO's radar imaging satellites and aimed to enhance India's remote sensing capabilities by providing detailed imagery for various applications.
+                The satellite's data was used for observing the Earth’s surface in diverse conditions, including monitoring agriculture, forestry, soil moisture, and disaster management.
+    
+                <br><h3>Applications:</h3>
+    
+                <b>Agriculture:</b>
+                RISAT-1 helped in monitoring crops, identifying crop health, and assessing damage due to weather conditions.
+                It also assisted in soil moisture estimation and crop yield prediction, which was useful for better agricultural planning.
+                <br>
+                <br><b>Disaster Management:</b>
+                The satellite provided valuable data for assessing damage caused by natural disasters such as floods, earthquakes, and cyclones.
+                Its all-weather capabilities allowed real-time data collection, which aided in disaster relief and response planning.
+                <br>
+                <br><b>National Security:</b>
+                RISAT-1 was crucial for border surveillance and reconnaissance.. Its radar capabilities allowed for monitoring land and infrastructure, making it useful for security and defense applications.
+                <br>
+                <br><b>Environmental Monitoring:</b>
+                The satellite supported monitoring of environmental changes, such as deforestation, land degradation, and urbanization.
+                It provided data on soil moisture, which was important for studying the effects of climate change and managing water resources.
+                <br>
+                <br><b>Resource Management:</b>
+                RISAT-1 contributed to land use mapping
+                and resource management, which aided in urban planning and infrastructure development.
+                <br><button id="link"><a id="alink" href="https://www.youtube.com/watch?v=gPvxbwJX_W4" target="_blank">Click to watch the launch video!</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="chandrayaan3">CHANDRAYAAN-3</h2>
+            <div class="div">
+                Mission Objective:</h3>
+                The primary objectives of Chandrayaan-3 are:
+                Demonstrate Soft-Landing on the Moon: Chandrayaan-3 aims to achieve a soft landing on the Moon's surface, a critical milestone in ISRO's space exploration capabilities.
+                Deploy a Lunar Rover: The mission includes a rover designed to perform scientific experiments on the lunar surface.
+                Scientific Exploration: The rover will analyze the Moon's surface composition, search for water ice at the lunar south pole, and study seismic activity and other surface features.
+    
+                <h3>Launch Date:</h3>
+                Chandrayaan-3 was launched on July 14, 2023, at 2:35 PM IST from the Satish Dhawan Space Centre (SDSC), Sriharikota, India.
+    
+                <h3>Launch Vehicle:</h3>
+                The mission was launched using the *GSLV Mk III rocket (Geosynchronous Satellite Launch Vehicle Mark III), India's most powerful launch vehicle, also known as **LVM3*. It is capable of carrying heavier payloads to lunar and other interplanetary destinations.
+    
+                <h3>Applications:</h3>
+    
+                <b>Lunar Surface Exploration:</b>The rover will study the Moon's surface, including its composition and mineral content. It will specifically look for signs of water ice, particularly at the lunar south pole, which could support future lunar exploration or colonization efforts.
+                <br>
+                <br><b>Scientific Data Collection:</b> 
+                <br>
+                <br><b>Lunar Soil Composition:</b> The rover’s payload includes spectrometers and cameras to analyze the mineral content and texture of the lunar surface.
+                <br><b>Seismology:</b> The rover will also study seismic activity on the Moon, providing insights into its internal structure and geological history.
+                <br>
+                <br><b>Water Ice Exploration:</b> The mission has a special focus on the potential presence of water ice at the south pole of the Moon. Water is crucial for future human missions, as it can be used for drinking water, oxygen, and rocket fuel.
+                <br>
+                <br><b>Technological Advancement for Future Missions:</b> Chandrayaan-3 helps demonstrate India’s capability to perform complex space missions, particularly soft-landing and autonomous rover operations, which are critical for future lunar missions, human space exploration, and potential international collaborations.
+                <br><button id="link"><a id="alink" href="https://youtu.be/Zfr1eVS5iX8?si=0-cd4_jSVNWLoj1M" target="_blank">Click here to watch the official launch video</a></button>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="para">
+            <h2 class="heading" id="chandrayaan2">CHANDRAYAAN-2 : </h2>
+            <div class="div">
+                Chandrayaan-2 was launched on <b>July 22, 2019, at 2:43 PM IST</b> from the Satish Dhawan Space Centre in Sriharikota, India, aboard a <b>GSLV Mk III rocket</b>.
+    
+                <br><h3>Mission Objective:</h3>
+                Chandrayaan-2 was India's second lunar exploration mission, aimed at advancing the scientific understanding of the Moon. The primary objectives of the mission included:
+    
+                <br>1. Exploring the lunar surface – particularly the south pole region, which had not been extensively studied before.
+                <br>2. Studying the mineral composition of the Moon's surface.
+                <br>3. Studying water ice in the lunar south pole region.
+                <br>4. Studying the Moon's exosphere.
+                <br>5. Carrying out high-resolution 3D mapping of the lunar surface.
+    
+                <br><h3>Launch Vehicle:</h3>
+                The mission was launched aboard the GSLV Mk III (Geosynchronous Satellite Launch Vehicle Mark III), which is a heavy-lift launch vehicle developed by the Indian Space Research Organisation (ISRO).
+    
+                <br><h3>Mission Applications:</h3>
+                Chandrayaan-2's scientific data and advancements have numerous applications:
+                <br>
+                <br><b>Lunar Science:</b> The data collected helps in understanding the Moon's evolution, including its formation and mineral composition.
+                <br>
+                <br><b>Water and Ice Resources:</b> Studying water ice on the Moon is crucial for future lunar missions, as it could be utilized for water and oxygen production, supporting long-term human habitation.
+                <br>
+                <br><b>Technological Development:</b> The mission demonstrated several technologies that could be used in future interplanetary missions, like soft-landing techniques, robotics, and autonomous operations.
+                Although the Vikram lander lost contact during its descent, the orbiter has continued to function successfully, transmitting valuable scientific data back to Earth.
+                <br><button id="link"><a id="alink" href="https://youtu.be/ZwJw3Dtp-sw?si=T5igwkAEV6isdemW" target="_blank">Click here to watch the official launch video</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="chandrayaan1">CHANDRAYAAN-1 :</h2>
+            <div class="div">
+                Launch Date: October 22, 2008
+                <h3>Mission Objective:</h3>
+                The primary objective was to survey the Moon in various spectrums like X-ray, visible, and infrared, and to provide detailed information about the Moon's surface. One of the key goals was to search for water molecules in the lunar soil.
+    
+                <h3>Launch Vehicle: </h3>The spacecraft was launched aboard the Polar Satellite Launch Vehicle (PSLV-C11) from the Satish Dhawan Space Centre in Sriharikota, India.
+    
+                <h3>Mission: </h3>
+                Chandrayaan-1 was an unmanned mission, which carried 11 scientific instruments, five of which were Indian and six were from international space agencies like NASA, ESA, and Bulgaria.
+                It conducted high-resolution remote sensing of the Moon's surface.
+                It helped confirm the presence of water (in the form of ice) on the lunar surface.
+                <h3>Applications:</h3>
+                <b>Scientific Research:</b>
+                It contributed significantly to our understanding of the Moon's topography, mineral composition, and the presence of water molecules.
+                <br>
+                <br><b>Technology Demonstration:</b>
+                The mission demonstrated India's capability to design, launch, and manage space missions to other celestial bodies.
+                <br>
+                <br><b>International Collaboration:</b>
+                Chandrayaan-1 paved the way for future space exploration collaborations with various countries and space agencies.
+                Although the mission lasted for about 312 days instead of the planned two years due to communication issues, it significantly contributed to lunar science and raised India's stature in the global space community.
+                <br><button id="link"><a id="alink" href="https://youtu.be/qnOqwrTRFb0?si=E7QmJ7KJ5MVOGRur" target="_blank">Click here to watch the official launch video</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="SLV-3">ROHINI SATTELITE-1 : </h2>
+            <div class="div">
+                Launch Date: July 18, 1980
+    
+                <h3>Mission Objective:</h3>
+                The SLV-3(Satellite Launch Vehicle-3) was designed to launch small satellites into low Earth orbit (LEO). Its primary mission was to demonstrate the capability of launching satellites into orbit.
+                The main goal of the mission was to test the technology required for satellite launching, and it was a precursor to ISRO's future launch vehicles.
+                The SLV-3nmission was designed to launch the Rohini-1 satellite, India's first indigenously developed satellite.
+                
+                <h3>Launch Vehicle:</h3>
+                The SLV-3 itself was India's first launch vehicle. It was a small, solid-fueled vehicle designed to launch satellites weighing up to 40 kilograms into low Earth orbit.
+                
+                <h3> Mission:</h3>
+                SLV-3 successfully placed the Rohini-1 satellite into orbit. The satellite's mission was focused on Earth observation and remote sensing, marking a significant step in India's satellite technology.This mission was a major technological achievement for ISRO, demonstrating India's ability to launch satellites into orbit using its own launch vehicle.
+                
+                <h3>Applications:</h3>
+                
+                <b>Satellite Launch Capability:</b>The SLV-3 was crucial for demonstrating India's ability to independently launch satellites, laying the foundation for ISRO’s future in satellite launches.
+                <br> 
+                <br><b>Remote Sensing and Earth Observation:</b>The Rohini-1 satellite launched by SLV-3 was used for Earth observation and remote sensing, which became important for resource management, agricultural monitoring, and environmental studies.
+                <br>
+                <br><b>Technological Advancement:</b>The successful launch of SLV-3 helped ISRO develop critical technologies in launch vehicle design, propulsion systems, and satellite deployment, which paved the way for future launch vehicles like PSLV and GSLV.
+                <br>
+                <br><b>National Security:</b>The SLV-3 mission and its success also demonstrated India's growing capabilities in space technology, contributing to national security and strategic space programs.
+                <br>
+                <br><b>The SLV-3 mission marked India’s entry into the league of space-faring nations with the ability to independently launch satellites, and it played a critical role in the evolution of ISRO’s space program.</b>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="MOM">MANGALYAAN (Mars Orbiter Mission - MOM) </h2>
+            <div class="div">
+                Launch Date: November 5, 2013
+                <h3>Mission Objective: </h3>
+                The primary goal was to develop the technologies required for interplanetary missions and to explore Mars from orbit. The mission aimed to study the Martian surface, morphology, atmosphere, and mineral composition.
+                It also sought to detect methane in the Martian atmosphere, which could indicate the presence of life.
+                The mission aimed to provide key data on Martian climate and weather.
+            
+                <h3>Launch Vehicle:</h3> 
+                The spacecraft was launched aboard the Polar Satellite Launch Vehicle (PSLV-C25) from the Satish Dhawan Space Centre in Sriharikota, India.
+    
+                <h3> Mission: </h3>
+                Mangalyaan was designed to orbit Mars and send back data related to the Martian atmosphere, surface, and mineral composition.
+                The spacecraft carried five scientific instruments to capture images, analyze the atmosphere, and study the Martian surface.
+                The successful entry into Mars' orbit in September 2014 made India the first country to reach Mars on its maiden attempt.
+    
+                <h3>Applications:</h3>
+                <b>Scientific Research:</b> MOM provided valuable information about the Martian surface, atmosphere, and weather patterns. It confirmed the presence of methane in Mars' atmosphere and helped identify various surface minerals, which were key to understanding Mars' geological history.
+                <br>
+                <br><b>Technological Advancements:</b> The mission demonstrated India’s capability in developing and executing complex interplanetary missions, particularly with a low-cost approach. It also showcased ISRO's expertise in deep space exploration.
+                <br>
+                <br><b>International Recognition:</b> Mangalyaan helped boost India's position in the global space community and fostered collaborations for future Mars missions.
+    
+                Mangalyaan was a huge success for ISRO, achieving its objectives with a budget that was much lower than similar missions by other space agencies, making it a significant achievement in space exploration.
+                <br><button id="link"><a id="alink" href="https://www.youtube.com/watch?v=smRSEUT8yX0" target="_blank">Click here to view the launch details</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="adityal1">ADITYA-L1</h2>
+            <div class="div">
+                Aaditya-L1 is India's first mission dedicated to studying the Sun. It is designed to explore the Sun's outermost layer, the corona, and gather critical data about the Sun's activity, which has significant implications for space weather, satellite operations, and other technological systems on Earth.
+                
+                <br><h3>Mission Objective:</h3>
+                The main objectives of the Aaditya-L1 mission are:
+                <br><b>1. Study the Sun’s Outer Atmosphere (Corona):</b> The primary goal is to understand the solar corona, the Sun's outermost layer, which is still not fully understood. The corona is much hotter than the Sun's surface, and the mission aims to investigate why this is the case.
+                <br><b>2. Investigate Solar Wind and Its Impact:</b> Aaditya-L1 will study the solar wind and how it affects space weather, Earth's magnetic field, and satellite systems in space.
+                <br><b>3. Study the Sun’s Variability:</b> The mission will examine the Sun's activity cycle, including solar flares and coronal mass ejections (CMEs), and their impact on the Earth's space environment.
+                <br><b>4. Understand Solar Dynamics:</b> Aaditya-L1 aims to investigate the solar magnetic field, energy transfer mechanisms, and other phenomena related to solar activity and its connection to space weather events.
+                    
+                <br><h3>Launch Date:</h3>
+                Aaditya-L1 was launched on September 2, 2023, at 11:50 AM IST from the Satish Dhawan Space Centre (SDSC), Sriharikota, India.
+                    
+                <br><h3>Launch Vehicle:</h3>
+                The mission was launched aboard the PSLV-C57 (Polar Satellite Launch Vehicle) rocket, which is one of ISRO’s most reliable launch vehicles. PSLV is capable of carrying payloads into both polar and sun-synchronous orbits, making it ideal for this mission to the Lagrange point.
+                    
+                <br><h3>Mission Applications:</h3>
+                    
+                <br><b>1. Space Weather Prediction:</b>
+                - Aaditya-L1 will help scientists better understand solar phenomena such as solar flares and coronal mass ejections (CMEs), which can affect communication, GPS, and power systems on Earth.
+                - The mission will provide crucial data to forecast solar events that can impact space weather, helping mitigate risks to satellite operations and electrical grids.
+                <br>
+                <br><b>2. Understanding the Solar Atmosphere and Solar Wind:</b>
+                - By studying the solar corona and solar wind, the mission aims to unravel why the Sun’s outer atmosphere is much hotter than its surface, a mystery that has puzzled scientists for years.
+                - The mission will provide insights into the Sun's magnetic fields and their role in solar activity, which can influence space weather.
+                <br>
+                <br><b>3. Improved Spacecraft and Satellite Protection:</b>
+                - Understanding solar activities better will help improve the protection of satellites and astronauts from harmful solar radiation, which can degrade satellite components, disrupt communications, and endanger space missions.
+                - The data from Aaditya-L1 will be useful in developing better materials and technologies to shield satellites and spacecraft from solar radiation.
+                <br>
+                <br><b>4. Enhanced Understanding of the Sun-Earth Relationship:</b>
+                - The mission will enhance our understanding of the Sun-Earth connection, including how solar activity influences the Earth's climate and space environment.
+                - Studying solar radiation and wind will help improve the understanding of space climate and its broader implications for Earth.
+                <br>
+                <br><b>5. Contributions to Global Solar Research:</b>
+                - Aaditya-L1 will provide valuable data to the global scientific community, contributing to solar research and enhancing collaborations between space agencies and researchers worldwide.
+                - It will complement data from other solar missions like NASA's Parker Solar Probe and Solar and Heliospheric Observatory (SOHO), providing a more complete picture of solar phenomena.
+                <br>
+                <br>In summary, Aaditya-L1 is a pioneering mission by ISRO to study the Sun in unprecedented detail, focusing on solar activity, the solar wind, and the corona. It will significantly contribute to space weather prediction, satellite protection, and our understanding of the Sun's behavior and its influence on Earth.
+                <br><button id="link"><a id="alink" href="https://www.youtube.com/live/MCfEDlNPTP0?si=o5Q6IIkUlbmbXKr-" target="_blank">Click here to watch the offical launch videos</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="gaganyaan">GAGANYAAN</h2>
+            <div class="div">
+                <h3>Mission Objective:</h3>
+                The primary objectives of the Gaganyaan Mission are:
+                Human Spaceflight: The main objective is to send Indian astronauts into low Earth orbit (LEO), demonstrating India's capability to conduct human space missions.
+                Demonstrate Human Spaceflight Technologies: The mission aims to test the technologies required for human spaceflight, such as life support systems, crew modules, re-entry technologies, and safety measures for astronauts.
+                Scientific Experiments in Space: The mission will carry out various experiments in microgravity and study the effects of space travel on human health, including physiological and psychological factors.
+                Establish India as a Spacefaring Nation: By successfully completing the Gaganyaan mission, ISRO will establish India as one of the few nations capable of sending humans into space.
+                
+                
+                <h3>Launch Date:</h3>
+                The Gaganyaan mission is currently scheduled for launch in 2026. However, the timeline may vary based on final preparations, testing, and readiness of the crew module and other spacecraft systems.
+                
+                <h3>Launch Vehicle:</h3>
+                The Gaganyaan mission will be launched using the GSLV Mk III (Geosynchronous Satellite Launch Vehicle Mark III), also known as LVM3. This is ISRO’s most powerful launch vehicle, capable of carrying heavy payloads to low Earth orbit. The GSLV Mk III is already proven through the successful launch of the Chandrayaan-2 and PSLV-C47 missions, and it will be crucial in carrying the crewed spacecraft to space.
+                
+                <h3>Applications:</h3>
+                
+                <b>1.Space Exploration:</b>
+                Human Spaceflight Capability: The mission will demonstrate ISRO's ability to safely send humans into space and bring them back to Earth, advancing India's capabilities in space exploration.
+                Crewed Missions to Deep Space: Gaganyaan is an important step towards future missions, including potential crewed missions to the Moon, Mars, or other destinations beyond Earth orbit.
+                <br>
+                <br><b>2. Scientific Experiments and Research:</b>
+                Microgravity Experiments:The crew will conduct experiments in microgravity, studying the behavior of fluids, materials, and biological systems in space.
+                Human Physiology in Space: The mission will help study the physical and psychological effects of space travel on the human body, including muscle atrophy, bone density loss, and other health challenges posed by long-duration spaceflight.
+                <br>
+                <br><b>3.Technological Advancements:</b>
+                Life Support and Safety Systems: The mission will test and validate advanced life support systems, including oxygen generation, waste management, and temperature control, essential for crewed space missions.
+                Spacecraft Safety Technologies: Technologies for safe re-entry and descent, such as heat shields, parachutes, and landing systems, will be tested, ensuring the safe return of astronauts.
+                <br>
+                <br><b>4. Global Space Community and Collaboration:</b>
+                The success of Gaganyaan will position India as one of the few countries capable of conducting human spaceflight, joining the ranks of nations like the United States, Russia, and China.
+                The mission opens the door for international collaboration, with possible future partnerships for crewed missions to the Moon and Mars.
+                <br>
+                <br><b>5. National Prestige and Inspiration:</b>
+                The mission will boost national pride and inspire a new generation of scientists, engineers, and young space enthusiasts in India.
+                It serves as a testament to India's growing technological and scientific expertise on the global stage.
+                
+                <p>ISRO's Gaganyaan mission aims to send Indian astronauts to space. <br>
+                    🚀 Launch in: <span id="countdown" class="countdown-clock"></span>
+                </p>
+                <br><button id="link"><a id="alink" href="https://www.youtube.com/live/MCfEDlNPTP0?si=o5Q6IIkUlbmbXKr-" target="_blank">Click here to watch the test flight videos!</a></button>
+            </div>
+        </div>
+    </section> 
+
+    <section>
+        <div class="para">
+            <h2 class="heading" id="aryabhatta">ARYABHATTA</h2>
+            <div class="div">
+                Aryabhata was India's first satellite, marking a significant milestone in the country's space exploration history. Here are the key details:<br>
+    
+                Launch Date: April 19, 1975
+                <h3>Mission Objective:</h3>
+                Aryabhata was primarily launched for conducting experiments in X-ray astronomy, solar physics, and aeronomy (study of the Earth's upper atmosphere).
+                The satellite was named after the ancient Indian mathematician and astronomer Aryabhata and was intended to serve as a platform for scientific research in space.
+            
+                <br><h3>Launch Vehicle:</h3>
+                The satellite was launched aboard a Kosmos-3M launch vehicle, which was provided by the Soviet Union (now Russia), as ISRO did not yet have its own launch vehicle capabilities at that time.
+            
+                <br><h3>Mission:</h3>Aryabhata was equipped with a series of scientific instruments to study X-rays and other forms of radiation from the Sun and other celestial objects.
+                The satellite conducted experiments in X-ray astronomy, solar physics, and the study of Earth's atmosphere.
+                Despite a successful launch, Aryabhata encountered some technical difficulties after reaching orbit. The satellite's systems, including communication, failed after a short period of time, and the mission was cut short.
+            
+                <br><h3>Applications:</h3>
+            
+                <b>Scientific Research:</b>Aryabhata helped India enter the field of space-based science and provided valuable data about space phenomena, including solar activity and X-ray radiation. It helped establish India's presence in space research.
+                <br>
+                <br><b>Technology Demonstration:</b>The satellite helped in testing and demonstrating space technologies, particularly the development of payloads and instruments for space science experiments, contributing to the evolution of ISRO's future missions.
+                <br>
+                <br><b>Space Exploration Foundations:</b>Aryabhata’s success and challenges served as a stepping stone for future Indian satellite missions, particularly those focused on scientific and technological advancements in space.
+                <br>
+                <br><b>International Collaboration:</b> The mission strengthened the cooperation between India and the Soviet Union, as the satellite was launched with the help of Soviet launch vehicle technology.
+                <br>
+                <br><b>Though Aryabhata's mission was limited due to the failure of some systems, it remains a landmark in India's space journey, as it demonstrated the country's capability to build and launch a satellite and laid the foundation for ISRO's future space missions.</b>
+                <br>
+                <br><button id="link"><a id="alink" href="https://youtu.be/y37iHU0jK4s?si=AL1n2bXcjQmJUPCw" target="_blank">Click here to watch the official launch video!</a></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section>
+        <h2 class="h2" id="faq">FAQs</h2>
+        <div class="faqs">
+            <p class="p">
+                1.   What is ISRO?  <br>
+                - ISRO (Indian Space Research Organisation) is the space agency of the Government of India, responsible for space exploration, satellite development, and space research.
+            </p>
+            <p  class="p">
+                2.   When was ISRO established?  <br>
+                - ISRO was founded on August 15, 1969, by Dr. Vikram Sarabhai, who is regarded as the father of the Indian space program.
+            </p>
+            <p class="p">
+                3.   What are the major objectives of ISRO?  <br>
+                - The main objectives of ISRO are to develop space technology, launch satellites, contribute to global space research, and improve the country's technological capabilities.
+            </p>
+            <p class="p">
+                4.   What was ISRO's first satellite?  <br>
+                - ISRO's first satellite, Aryabhata  , was launched on April 19, 1975, from the Soviet Union
+            </p>
+            <p class="p">
+                5.   What is the significance of the Chandrayaan missions? <br> 
+                - The Chandrayaan missions aim to explore the Moon.   Chandrayaan-1 (2008) discovered water molecules on the lunar surface, and   Chandrayaan-2 (2019) aimed to land near the south pole of the Moon, though its lander failed to make a soft landing.
+            </p>
+            <p class="p">
+                6.   What is the upcoming Gaganyaan mission?  <br>
+                - The   Gaganyaan mission   is ISRO's first human spaceflight mission, aiming to send Indian astronauts (Gagannauts) into space by 2024-2025.
+            </p>
+            <p class="p">
+                7.   What is ISRO’s plan for Mars exploration after Mangalyaan?  <br>
+                - While ISRO is still in the planning stages, they have indicated interest in further exploring Mars with more advanced missions, potentially focusing on Mars sample return or deeper exploration of the planet’s atmosphere.
+            </p>
+            <p class="p">
+                8.   How many satellites has ISRO launched in total?  <br>
+                - As of 2025, ISRO has successfully launched over 300 satellites from various countries using its different launch vehicles.
+            </p>
+            <p class="p">
+                9.   What is the smallest satellite ISRO has launched?  <br>
+                - ISRO has launched very small satellites, with the smallest being a CubeSat, weighing only about 1 kilogram, often launched alongside other payloads.
+            </p>
+            <p class="p">
+                10.   Can I visit ISRO or tour their facilities?  <br>
+                - ISRO occasionally offers tours of their facilities, particularly for educational purposes. You can check ISRO’s official website for any public access programs.
+            </p>
+            <p class="p">
+                11. How does ISRO contribute to India’s development?  <br>
+                - ISRO's missions support national development by providing services like telecommunications, weather forecasting, agriculture, and disaster management through satellite data
+            </p>
+            <p class="p">
+                12.   How can I track ISRO’s upcoming launches?  <br>
+                - You can follow ISRO's official website and social media platforms for real-time updates on upcoming missions and live streaming of launches.
+                <br><a href="https://www.isro.gov.in/" target="_blank">Click for further exploration!</a>
+            </p>
+            <p class="p">
+                13.  What launch vehicles does ISRO use?  <br>
+                - ISRO uses several launch vehicles, including the   PSLV (Polar Satellite Launch Vehicle),   GSLV   (Geosynchronous Satellite Launch Vehicle), and the upcoming   GSLV Mk III   for heavier payloads.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>About us</h4>
+                    <p>
+                        Ann Joy , Roll no:17<br>
+                        Aelina Anish , Roll no:8<br>
+                        ECE Department<br>
+                        College of Engineering, Trivandrum</li>
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                        <p>Email : tve24ec019@cet.ac.in<br>
+                            tve24ec037@cet.ac.in<br>
+                        Whatsapp : 950XXXXXXX , 8848XXXXXX
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                        <p>Launch Updates <br>
+                        Satellite Mission Details<br>
+                        Mission Analysis<br>
+                        Launch Calendar</p>
+                </div>
+            </div>
+            <p id="lfoot">© 2025 RocketX. All rights reserved.||Designed by:Aelina Anish.Ann Joy</p>
+        </div>
+    </footer>
+
+<!-- Linking external javascript file for increased functionality -->
+<script src="java_script.js"></script>
+
+</body>
+</html>
+        
