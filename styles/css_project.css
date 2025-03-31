@@ -1,0 +1,231 @@
+
+#navbar {
+    height:80px;
+    background-color:#121212;
+    color:whitesmoke;
+    margin:-30px;
+    position: fixed;
+    width:1496px;
+    z-index: 10;
+    padding-top: 12px;
+}
+#logo {
+    color:rgb(213, 213, 213);
+    font-size: 53px;
+    font-weight: bold;
+    margin-left:40px;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+
+}
+.navbar-icon {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color:rgb(177, 177, 178);
+    text-decoration: none;
+}
+.navbar-icon:hover {
+    border:1.5px solid rgb(144, 136, 171);
+}
+#curiousButton {
+    background-color:  rgb(119, 108, 156);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+#curiousButton:hover {
+    background-color: rgb(85, 70, 138);
+}
+#themeButton {
+    background-color:  rgb(119, 108, 156);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#themeButton:hover {
+    background-color: rgb(85, 70, 138);
+}
+.hero{
+    height: 100%;
+}
+.content {
+    text-align: left;
+    width: 40%;
+    padding: 0 30px 0 80px;
+    display: inline-block;
+    margin: 60px 0;
+}
+#h1{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color:rgb(161, 146, 209) ;
+    font-family: "Tektur", sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+
+}
+#maincontent {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 17px;
+}
+.image{
+    width: 711px;
+    display: inline-block;
+}
+#heroimg{
+    width: 80%;
+    margin-left: 120px;
+}
+.image {
+    position: absolute;
+    left: -800px; 
+    top: 32%;
+    animation: moveRight 6s forwards;
+}
+@keyframes moveRight {
+    from {
+        left: -800px;
+    }
+    to {
+        left: 700px;
+    }
+}
+#tb{
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.h2 {
+    margin-bottom: 10px;
+    color:rgb(161, 146, 209) ;
+    font-size: 50px;
+    font-family: "Titillium Web", sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 120px;
+}
+td, th {
+    height: 60px; 
+    padding: 10px;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+}
+a {
+    text-decoration: none;
+    color:rgb(109, 85, 189);
+}
+.heading {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height:50px;
+    font-size: 40px;
+    font-family: "Titillium Web", sans-serif;
+    color:rgb(125, 105, 193);
+}
+#link {
+    background-color: rgb(144, 122, 220);
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#link:hover {
+    background-color: rgb(125, 112, 171);
+}
+#alink {
+    color: white;
+}
+h3 {
+    text-decoration: underline;
+}
+.para{
+    background-color: rgb(208, 177, 237);
+    padding: 20px 55px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 17px;
+}
+body {
+    color: rgb(0, 0, 0); 
+    font-family: Arial, sans-serif;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(236, 236, 237);
+    width: 1422px;
+}
+.faqs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: baseline;
+    gap: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.p {
+    background-color: rgb(208, 177, 237);
+    padding: 20px 55px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 17px;
+}
+.footer {
+    padding: 0px;
+    margin:0px;
+    background-color: #121212;
+    width: 104.11%;
+    color: whitesmoke;
+    margin:0 -30px -43px -30px;
+    padding-bottom: 3px;
+}
+.row {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px 100px;
+    line-height: 22px;
+}
+.footer-col h4{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+#lfoot {
+    text-align: center;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+.countdown-clock {
+    font-family: 'Courier New', monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    color: hwb(47 0% 96% / 0.995);
+    background: rgb(208, 177, 237);
+    padding: 10px 15px;
+    margin-top: 30px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
